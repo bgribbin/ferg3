@@ -3,10 +3,11 @@ require 'mina/rails'
 require 'mina/git'
 require 'mina/rvm'  
 
+set :term_mode, nil
 set :domain, 'fergieshairdryer.com'
 set :deploy_to, '/var/www/fergieshairdryer.com/html'
 set :user, 'deployer'
-set :port, '22'
+set :ssh_options, '-A'
 set :repository, 'https://github.com/bgribbin/ferg3.git'
 set :branch, 'master'
 

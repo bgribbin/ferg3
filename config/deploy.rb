@@ -5,11 +5,12 @@ require 'mina/rvm'
 
 set :domain, 'fergieshairdryer.com'
 set :deploy_to, '/var/www/fergieshairdryer.com/html'
+set :user, 'deployer'
 set :repository, 'https://github.com/bgribbin/ferg3.git'
 set :branch, 'master'
 
 task :environment do
-  invoke :'rbenv:load'
+
 end
 
 desc "Deploys the current version to the server."

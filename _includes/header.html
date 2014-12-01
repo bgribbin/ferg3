@@ -1,20 +1,24 @@
-<header class="site-header">
+<header id="header">
+  <div class="row">
 
-  <div class="wrapper">
+        <div class="small-12 columns">
+            <section class="right show-for-medium-up mam">
+                <ul class="inline-list">
+                    {% include nav.html %}
+                </ul>
+            </section>
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <section class="right show-for-small">
+                <ul class="inline-list mam">
+                <li>
+                    <a class="right-off-canvas-toggle"><i class="fa fa-bars fa-lg">
+                    </i></a>
+                </li>
+                </ul>
+            </section>
 
-    <nav class="site-nav">
+            <h1><a href="{{ site.url }}">{{ site.brand }}</a></h1>
 
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
-  </div>
-
-</header>
+        </div>
+    </div>
+  </header>

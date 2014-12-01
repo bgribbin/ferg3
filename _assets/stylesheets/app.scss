@@ -2,6 +2,97 @@
 
 @import 'vendor/foundation/scss/normalize';
 
+@import 'settings';
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'gotham-light';
+  src: url(asset_path('fonts/gotham-light-webfont.eot'));
+  src: url(asset_path('fonts/gotham-light-webfont.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/gotham-light-webfont.woff')) format('woff'),
+  url(asset_path('fonts/gotham-light-webfont.ttf')) format('truetype'),
+  url(asset_path('fonts/gotham-light-webfont.svg#gotham-light')) format('svg');
+}
+
+@font-face {
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'gotham-bold';
+  src: url(asset_path('fonts/gotham-bold-webfont.eot'));
+  src: url(asset_path('fonts/gotham-bold-webfont.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/gotham-bold-webfont.woff')) format('woff'),
+  url(asset_path('fonts/gotham-bold-webfont.ttf')) format('truetype'),
+  url(asset_path('fonts/gotham-bold-webfont.svg#gotham-bold')) format('svg');
+}
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'gotham-book';
+  src: url(asset_path('fonts/gotham-book-webfont.eot'));
+  src: url(asset_path('fonts/gotham-book-webfont.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/gotham-book-webfont.woff')) format('woff'),
+  url(asset_path('fonts/gotham-book-webfont.ttf')) format('truetype'),
+  url(asset_path('fonts/gotham-book-webfont.svg#gotham-light')) format('svg');
+}
+
+//  =============
+//  = Variables =
+//  =============
+
+$main-red: #C24B5E;
+$ch-navy: #1C4E81;
+$ch-grey: #333333;
+
+$text-color: #7b889a;
+$link-color: #e1004b;
+$base-font-size: 16px;
+$base-font-family: 'gotham-light', Helvetica, Arial, sans-serif;
+$base-font-weight: 200;
+
 body {
-  background-color: #f3f3f3;
+  color: $text-color;
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+}
+
+a {
+  color: $link-color;
+}
+
+h1,h2,h3,h4,h5,p {
+  font-family: $base-font-family;
+}
+
+h1,h2,h3,h4,h5 {
+	font-weight: bold;
+}
+
+p {
+font-size: 1.2rem;
+text-align: justify;
+}
+
+.fixed-container {
+	min-height: 600px;
+	background-color: $main-red;
+}
+.mam {
+	margin: 2rem 0;
+}
+
+
+//  ==========
+//  = HEADER =
+//  ==========
+
+#header {
+	background-color: $main-red;
+	min-height: 600px;
+
+	a {
+		color: #fff;
+	}
 }

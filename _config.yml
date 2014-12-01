@@ -21,3 +21,5 @@ assets:
     - _assets/stylesheets
     - _assets/images
   css_compressor: sass
+
+exclude: ["vendor"]

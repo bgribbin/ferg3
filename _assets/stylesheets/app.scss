@@ -104,7 +104,8 @@ text-align: justify;
     display: block;
 
     @media #{$small-only} { 
-    padding: 2rem 0rem;
+    padding-top: 0rem;
+    padding-bottom: 3rem;
     width: 80%;
     margin: 0 auto;
     display: block;

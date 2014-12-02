@@ -102,4 +102,13 @@ text-align: justify;
     width: 50%;
     margin: 0 auto;
     display: block;
+
+    @media #{$small-only} { 
+    padding: 2rem 0rem;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+
+
+    }
 }

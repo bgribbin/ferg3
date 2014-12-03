@@ -130,8 +130,7 @@ ul.nav-links {
     list-style: none;
 
     &:hover {
-    border-bottom: 2px;
-    border-color: white;
+    opacity: 0.7;
     }
   }
 }
@@ -190,6 +189,20 @@ img.img-main {
     font-weight: bold;
   }
 }
+.comment {
+  float: none;
+
+}
+.comment-link {
+  background-color: $main-red;
+  font-family: 'gotham-book';
+
+  &:hover {
+  background-color: $main-red;
+  opacity: 0.8;
+  }
+
+}
 
 //  ==========
 //  = FOOTER =
@@ -198,9 +211,10 @@ img.img-main {
 
 footer {
 
+  padding: 2rem 0;
   font-family: 'gotham-book';
   letter-spacing: 1.0px;
-  background-color: #062726;
+  background-color: #555355;
   color: white;
   font-weight: bold;
   a {

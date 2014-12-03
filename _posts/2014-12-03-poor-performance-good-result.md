@@ -2,6 +2,7 @@
 layout: post
 title:  "Man Utd 2 - 1 Stoke: Poor Performance, Good Result"
 date:   2014-12-03 23:50:27
+comments: true
 categories: result
 ---
 
@@ -17,3 +18,5 @@ To be fair, if we think about it, we knew how Stoke would set up and play so it 
 
 >“Wayne will have a scan, It is the knee and I don’t think it is so heavy (serious).
 >But with a knee you never know, so we will have the scan and then we will know more."
+
+

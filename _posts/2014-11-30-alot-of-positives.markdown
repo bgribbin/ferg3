@@ -2,6 +2,7 @@
 layout: post
 title:  "Man Utd 3 - 0 Hull City: A lot of positives"
 date:   2014-11-30 23:50:27
+comments: true
 categories: result
 ---
 

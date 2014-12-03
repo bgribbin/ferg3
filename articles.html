@@ -1,21 +1,21 @@
 ---
 layout: default
+title: Fergie's Articles - Man Utd blog
+description: The one and only
 ---
 
 <div class="row">
 
 <div class="large-8 large-offset-2 medium-10 medium-offset-1 small-12 columns">
 
-    <br><br>
+  <h1 class="page-heading">Articles</h1>
+
+ 
     {% for post in site.posts %}
     <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br><br>
-
-    <div class="post-content">
-    {{ post.content }}
-    </div>
     {% endfor %}
 
 

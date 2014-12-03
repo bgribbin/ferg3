@@ -75,6 +75,10 @@ font-size: 1.2rem;
 text-align: justify;
 }
 
+blockquote {
+  background-color: #e9e9ef;
+}
+
 .fixed-container {
 	background-color: $main-red;
 }
@@ -95,13 +99,13 @@ text-align: justify;
 		color: #fff;
 	}
 }
-
-
 .main_logo {
-    padding: 5rem 0rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    display: block;
     width: 50%;
     margin: 0 auto;
-    display: block;
+
 
     @media #{$small-only} { 
     padding-top: 0rem;
@@ -113,3 +117,98 @@ text-align: justify;
 
     }
 }
+
+ul.nav-links {
+  float: right;
+  li {
+    font-family: 'gotham-book';
+    letter-spacing: 1.0px;
+    margin-left: 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: inline-block;
+    list-style: none;
+
+    &:hover {
+    border-bottom: 2px;
+    border-color: white;
+    }
+  }
+}
+
+
+
+section.center {
+  text-align: center;
+}
+
+//  ==========
+//  = CONTENT =
+//  ==========
+
+.post-content {
+
+  padding-bottom: 3rem;
+
+  p {
+
+  color: #062726;
+
+  img.img-main {
+  margin: 0 auto;
+  width: 100%;
+  }
+  h3 {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  }
+  }
+
+  a {
+  font-family: 'gotham-book';
+  font-weight: bold;
+  }
+}
+
+.download {
+  font-family: 'gotham-book';
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+img.img-main {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#post-nav {
+
+  padding: 2rem 0;
+
+  a {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+}
+
+//  ==========
+//  = FOOTER =
+//  ==========
+
+
+footer {
+
+  font-family: 'gotham-book';
+  letter-spacing: 1.0px;
+  background-color: #062726;
+  color: white;
+  font-weight: bold;
+  a {
+    font-weight: bold;
+  }
+}
+
+
+
+
+

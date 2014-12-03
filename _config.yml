@@ -7,6 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://fergieshairdryer.com" # the base hostname & protocol for your site
 twitter_username: fergies_hd
+paginate: 1
 
 # Build settings
 markdown: kramdown

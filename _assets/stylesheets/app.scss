@@ -42,6 +42,7 @@
 //  =============
 
 $main-red: #C24B5E;
+$main-black: #555355;
 $ch-navy: #1C4E81;
 $ch-grey: #333333;
 
@@ -128,14 +129,24 @@ ul.nav-links {
     font-weight: bold;
     display: inline-block;
     list-style: none;
-
+    @media #{$small-only} {
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+    }
     &:hover {
     opacity: 0.7;
     }
   }
 }
-.app-icon {
+.app-icon, .time-icon {
   height: 48px;
+  @media #{$small-only} {
+  height: 32px;	
+  }
+}
+
+.comment-icon {
+	height: 32px;
 }
 
 
@@ -154,7 +165,7 @@ section.center {
 
   p {
 
-  color: #062726;
+  color: $main-black;
 
   img.img-main {
   margin: 0 auto;
@@ -197,11 +208,13 @@ img.img-main {
 
 }
 .comment-link {
-  background-color: $main-red;
   font-family: 'gotham-book';
-
+  font-size: 1.25rem;
+  img {
+  height: 48px;
+  }
   &:hover {
-  background-color: $main-red;
+  color: $main-red;
   opacity: 0.8;
   }
 
@@ -217,7 +230,7 @@ footer {
   padding: 2rem 0;
   font-family: 'gotham-book';
   letter-spacing: 1.0px;
-  background-color: #555355;
+  background-color: $main-black;
   color: white;
   font-weight: bold;
   a {

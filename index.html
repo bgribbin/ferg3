@@ -11,7 +11,7 @@ layout: default
     <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br><br>
+    <span class="post-meta">{% image time2.png class='time-icon' %} {{ post.date | date: "%b %-d, %Y" }}</span><br><br>
 
     <div class="post-content">
     {{ post.content }}
@@ -19,7 +19,7 @@ layout: default
 
     <ul class="inline-list comment">
     <li>
-    <a class="button round comment-link" href="{{ post.url | prepend: site.baseurl }}">Comment</a>
+    <a class="comment-link" href="{{ post.url | prepend: site.baseurl }}">{% image comment-red.png class='comment-icon' %} Comment</a>
     </li>
     </ul>
     <br>

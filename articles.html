@@ -15,7 +15,7 @@ description: The one and only
     <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br><br>
+    <span class="post-meta">{% image time2.png class='time-icon' %} {{ post.date | date: "%b %-d, %Y" }}</span><br><br>
     {% endfor %}
 
 

@@ -15,13 +15,14 @@ layout: default
 
     <div class="post-content">
     {{ post.content }}
-    </div>
 
     <ul class="inline-list comment">
     <li>
     <a class="comment-link" href="{{ post.url | prepend: site.baseurl }}">{% image comment-red.png class='comment-icon' %} Comment</a>
     </li>
     </ul>
+
+    </div>
     <br>
     {% endfor %}
 

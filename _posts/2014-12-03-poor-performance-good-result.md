@@ -10,7 +10,8 @@ categories: result
 
 It wasn't pretty, but we ground out another victory to make it four wins in four in the league.
 
-To be fair, if we think about it, we knew how Stoke would set up and play so it shouldn't be a big shock how the game went.Sparky's stubborn Stoke side broke up our flow and frustrated the tempo which we saw against Hull City three days earlier.
+To be fair, if we think about it, we knew how Stoke would set up and play so it shouldn't be a big shock how the game went.
+Sparky's stubborn Stoke side broke up our flow and frustrated the tempo which we saw against Hull City three days earlier.
 
 ### Constantly improving?
 

@@ -143,14 +143,14 @@ ul.nav-links {
     }
   }
 }
-.app-icon, .time-icon, .social-icon {
+.app-icon, .social-icon {
   height: 48px;
   @media #{$small-only} {
   height: 32px;	
   }
 }
 
-.comment-icon {
+.comment-icon, .time-icon {
 	height: 32px;
 	@media #{$small-only} {
  	height: 24px;	

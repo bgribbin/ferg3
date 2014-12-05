@@ -26,4 +26,6 @@ With all our injuries and fitness concerns, this will prove very significant com
 
 ### Onwards and Upwards
 
+A short opening article to ease into things (just like Falcao is easing into his United career). Here's to 3 victories in a row in the league, top 4 still and onwards and upwards....
+
 

@@ -150,10 +150,17 @@ ul.nav-links {
   }
 }
 
-.comment-icon, .time-icon {
+.time-icon {
 	height: 32px;
 	@media #{$small-only} {
  	height: 24px;	
+  }
+}
+
+.comment-icon {
+  height: 32px;
+  @media #{$small-only} {
+  height: 16px; 
   }
 }
 
@@ -220,6 +227,12 @@ img.img-main {
     &:hover {
   color: white; 
   }
+
+  @media #{$small-only} {
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  }
+
 }
 .comment {
   background-color: rgba(194, 75, 94, 0.9);

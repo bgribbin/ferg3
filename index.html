@@ -16,9 +16,15 @@ layout: default
     <div class="post-content">
     {{ post.content }}
 
-    <ul class="inline-list comment">
+    <ul class="inline-list">
     <li>
-    <a class="comment-link" href="{{ post.url | prepend: site.baseurl }}">{% image comment-red.png class='comment-icon' %} Comment</a>
+    <a class="comment-link comment" href="{{ post.url | prepend: site.baseurl }}">
+    {% image comment2.png class='comment-icon' %}
+     Comment</a>
+    </li>
+    <li><a href="https://twitter.com/share?text={{ post.title }}&url={{ post.url | prepend: site.baseurl }}" class="comment-link twitter" data-via="FergiesHD">
+    {% image tweet.png class='comment-icon' %}
+     Tweet</a>
     </li>
     </ul>
 
@@ -36,4 +42,5 @@ layout: default
         <h1>This is where the side columns will go
         </h1>
         </div> -->
+        
 </div>

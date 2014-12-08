@@ -36,6 +36,10 @@ Thrown in due to Smalling's groin injury and was no way near ready, coming back 
 
 Wounder of a game. Gave the ball away multiple times, head went down, subbed first half - 4
 
+### Carrick
+
+Carrick has been superb since his return to the team and had to cope with all sorts tonight. Ending up playing all kinds of position's defensively and brilliant at snuffing out the danger. - 7
+
 ### Felliani
 
 Extremely slopping in possession. Put himself about during the game but gave the ball away for the Saints goal. His poorest performance of the season. - 6

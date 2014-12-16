@@ -22,6 +22,8 @@ assets:
     - _assets/stylesheets
     - _assets/images
   css_compressor: sass
+  autosize: true 
+  gzip: [ text/css, application/javascript]
 
 exclude: ["vendor"]
 

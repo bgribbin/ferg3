@@ -24,6 +24,7 @@ assets:
   css_compressor: sass
   autosize: true 
   gzip: [ text/css, application/javascript]
+  cache: true
 
 exclude: ["vendor"]
 

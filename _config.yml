@@ -2,7 +2,7 @@
 title: Fergies Hairdryer - Another Man Utd blog
 brand: Fergies Hairdryer
 email: info@fergieshairdryer.com
-description: Another Man Utd blog. Analysis and views on the Red Devils.
+description: A Man Utd blog. Analysis and views on the Red Devils.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://fergieshairdryer.com" # the base hostname & protocol for your site
 twitter_username: fergiesHD
@@ -24,3 +24,5 @@ assets:
   css_compressor: sass
 
 exclude: ["vendor"]
+
+name: Fergies Hairdryer

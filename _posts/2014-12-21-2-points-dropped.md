@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2 Points dropped & the 352 formation"
-date:   2014-12-22 13:38:00
+date:   2014-12-22 18:38:00
 comments: true
 categories: result
 ---
